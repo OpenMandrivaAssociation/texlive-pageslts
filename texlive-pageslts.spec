@@ -1,3 +1,9 @@
+# revision 23534
+# category Package
+# catalog-ctan /macros/latex/contrib/pageslts
+# catalog-date 2011-08-13 08:34:58 +0200
+# catalog-license lppl1.3
+# catalog-version 1.2a
 Name:		texlive-pageslts
 Version:	1.2a
 Release:	1
@@ -54,6 +60,7 @@ on the undolabl package.
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.drv
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.dtx
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ on the undolabl package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
