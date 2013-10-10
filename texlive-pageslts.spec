@@ -1,12 +1,12 @@
-# revision 23534
+# revision 28986
 # category Package
 # catalog-ctan /macros/latex/contrib/pageslts
-# catalog-date 2011-08-13 08:34:58 +0200
+# catalog-date 2013-01-28 22:45:23 +0100
 # catalog-license lppl1.3
-# catalog-version 1.2a
+# catalog-version 1.2b
 Name:		texlive-pageslts
-Version:	1.2a
-Release:	2
+Version:	1.2b
+Release:	1
 Summary:	Variants of last page labels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
@@ -46,7 +46,6 @@ on the undolabl package.
 %doc %{_texmfdistdir}/doc/latex/pageslts/pageslts-example.tex
 %doc %{_texmfdistdir}/doc/latex/pageslts/pageslts.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/pageslts/ltxdoc.cfg
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.drv
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.dtx
 %doc %{_texmfdistdir}/source/latex/pageslts/pageslts.ins
@@ -60,17 +59,3 @@ on the undolabl package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2a-2
-+ Revision: 754635
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.2a-1
-+ Revision: 719183
-- texlive-pageslts
-- texlive-pageslts
-- texlive-pageslts
-- texlive-pageslts
-
