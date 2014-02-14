@@ -1,4 +1,4 @@
-# revision 28986
+# revision 32720
 # category Package
 # catalog-ctan /macros/latex/contrib/pageslts
 # catalog-date 2013-01-28 22:45:23 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.2b
 Name:		texlive-pageslts
 Version:	1.2b
-Release:	5
+Release:	6
 Summary:	Variants of last page labels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
