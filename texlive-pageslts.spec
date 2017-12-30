@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.2b
 Name:		texlive-pageslts
-Version:	1.2b
-Release:	10
+Version:	1.2f
+Release:	1
 Summary:	Variants of last page labels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
