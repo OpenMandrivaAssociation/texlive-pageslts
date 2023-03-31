@@ -1,6 +1,6 @@
 Name:		texlive-pageslts
 Version:	39164
-Release:	1
+Release:	2
 Summary:	Variants of last page labels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
