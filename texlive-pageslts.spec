@@ -3,7 +3,7 @@ Version:	39164
 Release:	2
 Summary:	Variants of last page labels
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pageslts
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pageslts.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pageslts.doc.r%{version}.tar.xz
