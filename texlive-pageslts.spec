@@ -1,5 +1,5 @@
 Name:		texlive-pageslts
-Version:	72912
+Version:	73400
 Release:	1
 Summary:	Variants of last page labels
 Group:		Publishing
